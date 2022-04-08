@@ -242,7 +242,16 @@ function App() {
               </div>
             </div>
             <div className="child">
+              <form>
+                <div class="row">
+                 <div class="col">
               <button type="submit" disabled={buttonDisable}>{buttonText}</button>
+                  </div>
+                 <div class="col">
+              <a href="https://docs.google.com/document/d/1GiIBPBgo4xeNj3bZa6ZlMSOn0dDZ9beKVHr1DxFPNJY/edit?usp=sharing">REPORT LINK</a>
+                  </div>
+                </div>
+              </form>
             </div>
 
           </form>
